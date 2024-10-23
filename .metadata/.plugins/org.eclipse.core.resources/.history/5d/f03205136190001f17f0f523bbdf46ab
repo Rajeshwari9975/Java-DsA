@@ -1,0 +1,12 @@
+package com.demo.test;
+
+import java.util.Scanner;
+import java.util.stream.Stream;
+
+public class TreeBinarySearch {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	Integer arr[]= {12,56,7,9,3,4,5};
+	Stream.of(arr).forEach(System.out::println);
+}
+}

@@ -1,0 +1,32 @@
+package com.demo.service;
+
+public class ArrayService {
+	public static int findmax(int arr[]) {
+		int max = arr[0];
+		for(int i =1;i<=arr.length;i++) {
+			if(arr[i]>max) 
+			{
+				max = arr[i];
+			}
+		}
+		
+		return  max;
+	}
+
+	public static int secondmax(int[] arr) {
+		int max =arr[0],xmax=arr[0];
+		for(int i =1;i<arr.length;i++)
+		{
+			if(arr[i]>max) {
+				xmax=max;
+				max= arr[i];
+			}
+			if(arr[i]>max && arr[i]<max) {
+				xmax= arr[i];
+			}
+		}
+		return xmax;
+	}
+
+
+}

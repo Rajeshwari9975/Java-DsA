@@ -1,0 +1,21 @@
+package com.demo.test;
+
+public class TestFact {
+	public static void main(String[] args) {
+		int ans = factorial(5);
+		System.out.println("Factorial of 5 "+" "+ans);
+		
+	}
+
+	private static int factorial(int num) 
+	 {
+		
+			if(num==0)
+				return 1;
+			else
+				return num* factorial(num-1);
+		}
+	
+	
+
+}

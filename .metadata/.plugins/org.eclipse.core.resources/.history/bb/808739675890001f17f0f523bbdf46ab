@@ -1,0 +1,12 @@
+package com.demo.test;
+
+import com.demo.service.ArrayService;
+
+public class TestClass {
+public static void main(String[] args) {
+	int []arr = {12,78,56,90,45,23};
+	//int max = ArrayService.findmax(arr);
+	//System.out.println("Mximum : "+max);
+	int secondmax = ArrayService.secondmax(arr);
+}
+}
